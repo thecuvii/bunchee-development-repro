@@ -1,0 +1,14 @@
+{
+  "name": "bunchee-development-repro",
+  "exports":{
+    "development":"./src/index.ts",
+    "default":"./dist/index.mjs"
+  },
+  "scripts": {
+    "build": "bunchee"
+  },
+  "packageManager": "pnpm@9.4.0",
+  "devDependencies": {
+    "bunchee": "^5.2.2"
+  }
+}
